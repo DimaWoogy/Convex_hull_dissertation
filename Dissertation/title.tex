@@ -1,64 +1,65 @@
 % Титульный лист (ГОСТ Р 7.0.11-2001, 5.1)
 \thispagestyle{empty}%
 \begin{center}%
-\thesisOrganization
+\textbf{\thesisOrganization}
 \end{center}%
 %
 \vspace{0pt plus4fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
-\IfFileExists{images/logo.pdf}{
-  \begin{minipage}[b]{0.499\linewidth}
-    \begin{flushleft}%
-      \includegraphics[height=3.5cm]{logo}
-    \end{flushleft}
-  \end{minipage}
-  \begin{minipage}[b]{0.499\linewidth}
-    \begin{flushright}%
-      На правах рукописи\\
-%      \textsl {УДК \thesisUdk}
-    \end{flushright}%
-  \end{minipage}
-}{
-\begin{flushright}%
-На правах рукописи
-
-%\textsl {УДК \thesisUdk}
-\end{flushright}%
-}
 %
 \vspace{0pt plus6fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
-\begin{center}%
-{\large \thesisAuthor}
-\end{center}%
 %
-\vspace{0pt plus1fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
+\begin{flushleft}
+\textbf{Факультет} \underline{\faculty}
+
+\textbf{Кафедра} \underline{\department}
+\end{flushleft}
+%
+\vspace{0pt plus4fill}
+%
 \begin{center}%
-\textbf {\large %\MakeUppercase
-\thesisTitle}
+{
+\textbf{\large{МАГИСТЕРСКАЯ ДИССЕРТАЦИЯ}}
 
-\vspace{0pt plus2fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
-{%\small
-Специальность \thesisSpecialtyNumber\ "---
+\vspace{0pt plus2fill}
 
-<<\thesisSpecialtyTitle>>
+\textbf{на тему:}
+
+\vspace{0pt plus2fill}
+
+\thesisTitle
+
+\vspace{0pt plus1fill}
+
+на соискание степени магистра по направлению подготовки
+
+\thesisSpecialtyNumber\ <<\thesisSpecialtyTitle>>
+
+
+\vspace{0pt plus1fill}
+
+Программа <<\thesisSpecialtyProgram>>
 }
-
-\vspace{0pt plus2fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
-Диссертация на соискание учёной степени
-
-\thesisDegree
+%
 \end{center}%
 %
-\vspace{0pt plus4fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
+\vspace{0pt plus4fill}
 \begin{flushright}%
-Научный руководитель:
+\textbf{Научный руководитель} \supervisorRegalia
 
-\supervisorRegalia
+\supervisorFioShort
 
-\supervisorFio
+\underline{\hspace{3cm}}
+
+\textbf{Магистрант} \thesisAuthorGroup
+
+\thesisAuthorShort
+
+\underline{\hspace{3cm}}
+
 \end{flushright}%
-%
-\vspace{0pt plus4fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
+
+\vspace{0pt plus4fill}
 \begin{center}%
-{\thesisCity\ "--- \thesisYear}
+\textbf{\thesisCity\ \thesisYear г.}
 \end{center}%
 \newpage
