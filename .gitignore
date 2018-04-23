@@ -154,3 +154,6 @@ pythontex-files-*/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# svg
+svg-inkscape/

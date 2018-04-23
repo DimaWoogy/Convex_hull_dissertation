@@ -14,10 +14,10 @@
 	{\centering
 		\hfill
 		\subbottom[\label{img:ccw_1}]{%
-			\includegraphics[width=0.4\linewidth]{ccw1}}
+			\includesvg[width=0.4\linewidth]{ccw1}}
 		\hfill
 		\subbottom[\label{img:ccw_2}]{%
-			\includegraphics[width=0.4\linewidth]{ccw2}}
+			\includesvg[width=0.4\linewidth]{ccw2}}
 		\hfill
 	}
 	\caption{Демонстрация работы предиката $ccw$}
@@ -53,10 +53,10 @@ ccw(A, B, C)=det(A, B, C) > 0
     {\centering
         \hfill
         \subbottom[\label{img:jarvis_1}]{%
-            \includegraphics[width=0.4\linewidth]{jarvis1}}
+            \includesvg[width=0.4\linewidth]{jarvis1}}
         \hfill
         \subbottom[\label{img:jarvis_2}]{%
-            \includegraphics[width=0.4\linewidth]{jarvis2}}
+            \includesvg[width=0.4\linewidth]{jarvis2}}
         \hfill
     }
     \caption{Первые этапы работы алгоритма Джарвиса}
@@ -84,13 +84,13 @@ A<B=ccw(t_0, A, B)
 	{\centering
 		\hfill
 		\subbottom[\label{img:graham_1}]{%
-			\includegraphics[width=0.3\linewidth]{graham1}}
+			\includesvg[width=0.3\linewidth]{graham1}}
 		\hfill
 		\subbottom[\label{img:graham_2}]{%
-			\includegraphics[width=0.3\linewidth]{graham2}}
+			\includesvg[width=0.3\linewidth]{graham2}}
 		\hfill
 		\subbottom[\label{img:graham_3}]{%
-			\includegraphics[width=0.3\linewidth]{graham3}}
+			\includesvg[width=0.3\linewidth]{graham3}}
 		\hfill
 	}
 	\caption{Пример добавления точек при работе алгоритма Грэхема}
@@ -146,10 +146,10 @@ T(n) = 3/(\log 2)n \log n = O(n \log n)
 	{\centering
 		\hfill
 		\subbottom[\label{img:merge_1}]{%
-			\includegraphics[width=0.4\linewidth]{merge1}}
+			\includesvg[width=0.4\linewidth]{merge1}}
 		\hfill
 		\subbottom[\label{img:merge_2}]{%
-			\includegraphics[width=0.4\linewidth]{merge2}}
+			\includesvg[width=0.4\linewidth]{merge2}}
 		\hfill
 	}
 	\caption{Нахождение верхней и нижней касательных}
@@ -173,7 +173,7 @@ T(n) = 3/(\log 2)n \log n = O(n \log n)
 	{\centering
 		\hfill
 		\subbottom{%
-			\includegraphics[width=0.4\linewidth]{quickhull1}}
+			\includesvg[width=0.4\linewidth]{quickhull1}}
 		\hfill
 	}
 	\caption{Первый шаг алгоритма Quickhull}
@@ -186,10 +186,10 @@ T(n) = 3/(\log 2)n \log n = O(n \log n)
 	{\centering
 		\hfill
 		\subbottom[\label{img:quickhull_second_1}]{%
-			\includegraphics[width=0.4\linewidth]{quickhull2}}
+			\includesvg[width=0.4\linewidth]{quickhull2}}
 		\hfill
 		\subbottom[\label{img:quickhull_second_2}]{%
-			\includegraphics[width=0.4\linewidth]{quickhull3}}
+			\includesvg[width=0.4\linewidth]{quickhull3}}
 		\hfill
 	}
 	\caption{Алгоритм Quickhull}
@@ -228,7 +228,7 @@ T(n) = n + T(n_1) + T(n_2)
 
 \begin{figure}[ht] 
 	\centering
-	\includegraphics [scale=0.7]{incremental1}
+	\includesvg[scale=0.7]{incremental1}
 	\caption{Структура данных для инкрементального алгоритма}
 	\label{img:incremental_trees}
 \end{figure}
@@ -245,7 +245,7 @@ T(n) = n + T(n_1) + T(n_2)
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics [scale=0.7]{incremental2}
+	\includesvg[scale=0.7]{incremental2}
 	\caption{Нахождение вершин, соответствующих точке $q$}
 	\label{img:incremental_locate}
 \end{figure}
@@ -254,7 +254,7 @@ T(n) = n + T(n_1) + T(n_2)
 
 \begin{figure}[H]
 	\centering
-	\includegraphics {incremental3}
+	\includesvg{incremental3}
 	\caption{Определение положения точки с помощью предиката $ccw$}
 	\label{img:incremental_ccw}
 \end{figure}
@@ -273,16 +273,16 @@ T(n) = n + T(n_1) + T(n_2)
 	{\centering
 		\hfill
 		\subbottom[Точка внутри\label{img:incremental_newpoint_1}]{%
-			\includegraphics[width=0.21\linewidth]{incremental4}}
+			\includesvg[width=0.21\linewidth]{incremental4}}
 		\hfill
 		\subbottom[Точка снаружи сверху\label{img:incremental_newpoint_2}]{%
-			\includegraphics[width=0.21\linewidth]{incremental5}}
+			\includesvg[width=0.21\linewidth]{incremental5}}
 		\hfill
 		\subbottom[Точка снаружи снизу\label{img:incremental_newpoint_3}]{%
-			\includegraphics[width=0.21\linewidth]{incremental6}}
+			\includesvg[width=0.21\linewidth]{incremental6}}
 		\hfill
 		\subbottom[Точка снаружи слева\label{img:incremental_newpoint_4}]{%
-			\includegraphics[width=0.21\linewidth]{incremental7}}
+			\includesvg[width=0.21\linewidth]{incremental7}}
 		\hfill
 	}
 	\caption{Добавление новой точки в инкрементальном алгоритме}

@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="243.01967"
+     inkscape:cx="126.94824"
      inkscape:cy="201.57883"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -162,9 +162,9 @@
          id="tspan917"
          x="18.686913"
          y="52.819695"
-         style="stroke-width:0.26458332">t<tspan
+         style="stroke-width:0.26458332">$t_{i+1}$<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan921">i+1</tspan></tspan></text>
+   id="tspan921" /></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -175,9 +175,9 @@
          id="tspan923"
          x="28.514294"
          y="13.510172"
-         style="stroke-width:0.26458332">t<tspan
+         style="stroke-width:0.26458332">$t_i$<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan927">i</tspan></tspan></text>
+   id="tspan927" /></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -188,6 +188,6 @@
          id="tspan929"
          x="69.902687"
          y="40.157494"
-         style="stroke-width:0.26458332">p</tspan></text>
+         style="stroke-width:0.26458332">$p$</tspan></text>
   </g>
 </svg>

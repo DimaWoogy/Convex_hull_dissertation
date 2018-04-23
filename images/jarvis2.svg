@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-81.902816"
+     inkscape:cx="84.116766"
      inkscape:cy="242.55263"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -183,30 +183,30 @@
          style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="6.0476193"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;text-anchor:middle;text-align:center;"
+       x="19.093517"
        y="141.2738"
        id="text1505"><tspan
          sodipodi:role="line"
          id="tspan1503"
          x="6.0476193"
          y="141.2738"
-         style="baseline-shift:baseline;stroke-width:0.26458332">t<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan1507">0</tspan></tspan></text>
+         style="baseline-shift:baseline;stroke-width:0.26458332;text-anchor:middle;text-align:center;">$t_0$<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;text-anchor:middle;text-align:center;"
+   id="tspan1507" /></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="121.70834"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;text-anchor:middle;text-align:center;"
+       x="133.2141"
        y="182.85118"
        id="text1511"><tspan
          sodipodi:role="line"
          id="tspan1509"
          x="121.70834"
          y="182.85118"
-         style="stroke-width:0.26458332">t<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan1521">1</tspan></tspan></text>
+         style="stroke-width:0.26458332;text-anchor:middle;text-align:center;">$t_1$<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;text-anchor:middle;text-align:center;"
+   id="tspan1521" /></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:8,8;stroke-dashoffset:0;stroke-opacity:1"
        d="M 192.24795,56.588688 122.98419,188.53928"
@@ -222,9 +222,9 @@
          id="tspan1503-5"
          x="162.98633"
          y="124.98399"
-         style="baseline-shift:baseline;stroke-width:0.26458332">t<tspan
+         style="baseline-shift:baseline;stroke-width:0.26458332">$t_2$<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan1565">2</tspan></tspan></text>
+   id="tspan1565" /></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 10.915094,127.65855 133.0046,167.73139"

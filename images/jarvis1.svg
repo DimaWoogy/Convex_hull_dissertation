@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-314.04567"
+     inkscape:cx="84.116766"
      inkscape:cy="242.55263"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -183,17 +183,17 @@
          style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="6.0476193"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;text-anchor:middle;text-align:center;"
+       x="19.093517"
        y="141.2738"
        id="text1505"><tspan
          sodipodi:role="line"
          id="tspan1503"
          x="6.0476193"
          y="141.2738"
-         style="baseline-shift:baseline;stroke-width:0.26458332">t<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan2178">0</tspan></tspan></text>
+         style="baseline-shift:baseline;stroke-width:0.26458332;text-anchor:middle;text-align:center;">$t_0$<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;text-anchor:middle;text-align:center;"
+   id="tspan2178" /></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -204,9 +204,7 @@
          id="tspan1509"
          x="121.70834"
          y="182.85118"
-         style="stroke-width:0.26458332">t<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan1521">1</tspan></tspan></text>
+         style="stroke-width:0.26458332">$t_1$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.21274139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.70193102, 1.70193102;stroke-dashoffset:0;stroke-opacity:1"
        d="M -15.129153,117.43318 160.27201,177.58764"

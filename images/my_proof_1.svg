@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="106.26322mm"
-   height="110.13572mm"
-   viewBox="0 0 106.26321 110.13572"
+   width="159.70041mm"
+   height="109.92517mm"
+   viewBox="0 0 159.70039 109.92517"
    version="1.1"
    id="svg5181"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="77.805035"
-     inkscape:cy="198.831"
+     inkscape:zoom="0.70000001"
+     inkscape:cx="-71.999751"
+     inkscape:cy="101.74087"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,7 +55,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-29.234474,-6.9386252)">
+     transform="translate(6.1681453,-6.9386252)">
     <circle
        style="stroke-width:0.08500211;stroke-miterlimit:4;stroke-dasharray:none"
        id="path5183-2-75"
@@ -88,28 +88,28 @@
        r="4" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="29.515907"
-       y="37.510448"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="43.523911"
+       y="37.132473"
        id="text5836-1"><tspan
          sodipodi:role="line"
          id="tspan5834-6"
-         x="29.515907"
-         y="37.510448"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.26458332">p<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan847">N+1</tspan></tspan></text>
+         x="43.523911"
+         y="37.132473"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:end;text-anchor:end;stroke-width:0.26458332">$p_{N+1}$<tspan
+   style="font-size:64.99999762%;text-align:end;baseline-shift:sub;text-anchor:end"
+   id="tspan847" /></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="108.30946"
-       y="38.532246"
+       x="100.74994"
+       y="36.642365"
        id="text5952"><tspan
          sodipodi:role="line"
          id="tspan5950"
-         x="108.30946"
-         y="38.532246"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.26458332">B</tspan></text>
+         x="100.74994"
+         y="36.642365"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.26458332">$B$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -120,9 +120,9 @@
          id="tspan5950-9"
          x="125.82852"
          y="73.440086"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.26458332">C<tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.26458332">$C_1$<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan915">1</tspan></tspan></text>
+   id="tspan915" /></tspan></text>
     <circle
        style="stroke-width:0.08500211;stroke-miterlimit:4;stroke-dasharray:none"
        id="path5183-2-73-3"
@@ -152,15 +152,15 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="29.46496"
-       y="88.778893"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="34.466747"
+       y="88.400917"
        id="text878"><tspan
          sodipodi:role="line"
          id="tspan876"
-         x="29.46496"
-         y="88.778893"
-         style="stroke-width:0.26458332">A</tspan></text>
+         x="34.466747"
+         y="88.400917"
+         style="text-align:end;text-anchor:end;stroke-width:0.26458332">$A$</tspan></text>
     <circle
        style="stroke-width:0.08500211;stroke-miterlimit:4;stroke-dasharray:none"
        id="path5183-2-0-9"
@@ -192,16 +192,16 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="62.525078"
-       y="114.95768"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="71.527847"
+       y="114.5797"
        id="text5952-3-2"><tspan
          sodipodi:role="line"
          id="tspan5950-9-7"
-         x="62.525078"
-         y="114.95768"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.26458332">C<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan938">2</tspan></tspan></text>
+         x="71.527847"
+         y="114.5797"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:end;text-anchor:end;stroke-width:0.26458332">$C_2$<tspan
+   style="font-size:64.99999762%;text-align:end;baseline-shift:sub;text-anchor:end"
+   id="tspan938" /></tspan></text>
   </g>
 </svg>
