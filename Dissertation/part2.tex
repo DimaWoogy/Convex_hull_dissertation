@@ -70,7 +70,7 @@
 
 Первое, что необходимо найти - это две точки $L$ и $R$. Точки $L$, $R$ - это точки слева и справа соответственно от $A$ по углу относительно центра $D$. Как видно на рисунке \ref{img:my_find_lr}, все точки хранятся по углу относительно точки $D$, и поэтому поиск точек не вызывает труда.
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
 	\includesvg[width=\linewidth]{my_find_lr}
 	\caption{Нахождение точек $L, R$ в бинарном дереве поиска}
@@ -79,7 +79,7 @@
 
 Заметим, что может так оказаться, что точки $L$ и $R$ окажутся в противоположных частях бинарного дерева поиска. Это показано на рисунке \ref{img:my_find_cyclic}. Поэтому мы будем считать, что наше используемое сбалансированное двоичное дерево поиска является цикличным.
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
 	\includesvg[width=\linewidth]{my_find_cyclic}
 	\caption{Демонстрация цикличности используемого дерева поиска}
@@ -88,7 +88,7 @@
 
 После чего может быть 2 случая. Если $ccw(L, R, A)$ не выполняется, то новая точка $A$ не должна быть частью выпуклой оболочки и может быть пропущена. Этот случай показан на рисунке \ref{img:my_point_cases_1}. Иначе точки должна быть частью выпуклой оболочки и мы продолжим добавлять её. Это показано на рисунке \ref{img:my_point_cases_2}.
 
-\begin{figure}[H]
+\begin{figure}
 	{\centering
 		\hfill
 		\subbottom[\label{img:my_point_cases_1}]{%
@@ -108,7 +108,7 @@
 
 На рисунках \ref{img:my_points_deletion_1_1} и \ref{img:my_points_deletion_1_2} можно видеть, что точки $C, B, A$ лежат по часовой стрелке, поэтому точка $B$ должна быть удалена из выпуклой оболочки. Рисунок \ref{img:my_points_deletion_2_1} демонстрирует, что мы должна прекратить удаление точек справа от новой точки, так как $C, B, A$ теперь формирует тройку, которая лежит против часовой стрелки. Аналогично удаление не нужно производить слева от точки, что показано на рисунке \ref{img:my_points_deletion_2_2}. Действительно, на рисунках видно, что в конце получилась готовая выпуклая оболочка добавленных на текущий момент точек.
 
-\begin{figure}[H]
+\begin{figure}
 	{\centering
 		\hfill
 		\subbottom[\label{img:my_points_deletion_1_1}]{%
@@ -122,7 +122,7 @@
 	\label{img:my_points_deletion_1}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
 	{\centering
 		\hfill
 		\subbottom[\label{img:my_points_deletion_2_1}]{%
@@ -140,16 +140,16 @@
 
 Блок-схема всего алгоритма показана на рисунках \ref{img:my_algo} и \ref{img:my_algo_deletion}.
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{my_algo}
 	\caption{Блок-схема работы предлагаемого алгоритма}
 	\label{img:my_algo}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
-	\includegraphics[width=\linewidth]{my_algo_2}
+	\includegraphics[width=0.6\linewidth]{my_algo_2}
 	\caption{Блок-схема функции удаления точек перед добавлением точки point}
 	\label{img:my_algo_deletion}
 \end{figure}
