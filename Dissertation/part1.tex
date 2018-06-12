@@ -150,7 +150,7 @@ T(n) = cn \log n
 
 По предположению индукции для всех меньших $n$ мы уже доказали, что это правда, теперь выведем для $n$.
 \[
-T(n) = 3n + cn \log n/2 = 3n "--- cn \log 2 + cn \log n = (3 "--- c \log 2)n + cn \log n
+T(n) = 3n + cn \log n/2 = 3n - cn \log 2 + cn \log n = (3 - c \log 2)n + cn \log n
 \]
 
 Таким образом сложность алгоритма ''Разделяй и влавствуй'' равна:
@@ -548,7 +548,7 @@ m = 2^{2^t} \geq h \iff \log 2^{2^t} \geq \log h \iff 2^t \geq \log h \iff \iff 
 Теперь необходимо нормализовать $g(r)$ с помощью площади сегмента и считать эту функцию "--- гистограмой. Другими словами $g(r_i)$ считается вероятностью значения $r$. Таким образом мы получим формулу момента $n$ на формуле~\eqref{eq:nth_moment}~\cite{gonzalez2012digital}.
 
 \begin{equation}\label{eq:nth_moment}
-\mu_n(r)=\sum_{i=0}^{K-1}(r_i "--- m)^n g(r_i)
+\mu_n(r)=\sum_{i=0}^{K-1}(r_i - m)^n g(r_i)
 \end{equation}
 где
 \begin{equation}\label{eq:mean}
